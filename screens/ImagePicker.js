@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Image, Button } from 'react-native';
 import { launchImageLibraryAsync } from 'expo-image-picker';
@@ -8,12 +8,22 @@ import EmojiPicker from '../components/ImagePicker/EmojiPicker';
 import EmojiList from '../components/ImagePicker/EmojiList';
 import EmojiSticker from '../components/ImagePicker/EmojiSticker';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import * as MediaLibrary from 'expo-media-library';
+import { captureRef } from 'react-native-view-shot';
 
 export default function ImagePicker() {
+  const defaultImage = 'https://docs.expo.dev/static/images/tutorial/background-image.png';
+  const imageRef = useRef();
+
   const [selectedImage, setSelectedImage] = useState();
   const [showAppOptions, setShowAppOptions] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [pickedEmoji, setPickedEmoji] = useState(null);
+  const [status, requestPermissions] = MediaLibrary.usePermissions();
+
+  if (status === null) {
+    requestPermissions();
+  }
 
   const handlePickImageAsync = async () => {
     const result = await launchImageLibraryAsync({
@@ -32,22 +42,33 @@ export default function ImagePicker() {
   const onReset = () => {
     setShowAppOptions(false);
     setPickedEmoji(null);
+    setSelectedImage(defaultImage);
   }
 
   const onAddSticker = () => setIsModalVisible(true);
 
   const onModalClose = () => setIsModalVisible(false);
 
-  const onSaveImageAsync = () => {
+  const onSaveImageAsync = async () => {
+    try {
+      const localUri = await captureRef(imageRef, { height: 440, quality: 1 });
 
+      await MediaLibrary.saveToLibraryAsync(localUri);
+
+      if (localUri) {
+        onReset();
+        setSelectedImage(localUri);
+      }
+    } catch (error) {
+      console.log(error);
+    }
   }
 
-  const defaultImage = 'https://docs.expo.dev/static/images/tutorial/background-image.png';
   const imageSource = selectedImage != null ? { uri: selectedImage } : { uri: defaultImage }; 
 
   return (
     <GestureHandlerRootView style={styles.container}>
-      <View>
+      <View ref={imageRef} collapsable={false}>
         <Image 
           style={styles.image} 
           source={imageSource} 
