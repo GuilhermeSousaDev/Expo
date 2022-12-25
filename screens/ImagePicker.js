@@ -11,7 +11,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import * as MediaLibrary from 'expo-media-library';
 import { captureRef } from 'react-native-view-shot';
 
-export default function ImagePicker({ navigation }) {
+export default function ImagePicker() {
   const defaultImage = 'https://docs.expo.dev/static/images/tutorial/background-image.png';
   const imageRef = useRef();
 
@@ -90,7 +90,6 @@ export default function ImagePicker({ navigation }) {
           <View style={styles.footerContainer}>
             <Button title="Choose a Photo" onPress={handlePickImageAsync} />
             <Button title="Use this photo" onPress={() => setShowAppOptions(!showAppOptions)} />
-            <Button title="PinchGesture Screen" onPress={() => navigation.navigate('PinchGesture')} />
           </View>
         ) 
       }

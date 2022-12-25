@@ -9,11 +9,17 @@ export default function PinchGesture() {
     const savedImageScale = useSharedValue(1);
     const textScale = useSharedValue(1);
     const textSavedScale = useSharedValue(1);
+    const translateX = useSharedValue(0);
+    const translateY = useSharedValue(0);
+    const savedTranslateX = useSharedValue(0);
+    const savedTranslateY = useSharedValue(0);
 
     const textStyle = useAnimatedStyle(() => {
         return {
             transform: [
                 { scale: withSpring(textScale.value) },
+                { translateX: translateX.value },
+                { translateY: translateY.value },
             ]
         }
     });
@@ -38,14 +44,20 @@ export default function PinchGesture() {
     .onUpdate((e) => scaleImage.value = savedImageScale.value * e.scale)
     .onEnd(() => savedImageScale.value = scaleImage.value);
 
+    const panGesture = Gesture
+    .Pan()
+    .onUpdate((e) => {
+        translateX.value =  e.translationX;
+    })
+
     return (
         <GestureHandlerRootView style={styles.container}>
-            <GestureDetector gesture={pinchGesture}>
+            <GestureDetector gesture={Gesture.Exclusive(panGesture)}>
                 <Animated.View style={[textStyle]}>
                     <Text style={styles.text}>Image</Text>
                 </Animated.View>
             </GestureDetector>
-            <GestureDetector gesture={imagePinchGesture}>
+            <GestureDetector gesture={Gesture.Exclusive(imagePinchGesture)}>
                 <Animated.Image style={[styles.image, imageStyle]} source={{ uri }} />
             </GestureDetector>
         </GestureHandlerRootView>
