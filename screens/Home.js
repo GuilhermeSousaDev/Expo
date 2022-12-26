@@ -13,6 +13,7 @@ export default function Home({ navigation }) {
                 <Button title="ImagePicker" onPress={() => navigate('ImagePicker')} />
                 <Button title="PinchGesture" onPress={() => navigate('PinchGesture')} />
                 <Button title="Authentication" onPress={() => navigate('Authentication')} />
+                <Button title="Accelerometer" onPress={() => navigate('Accelerometer')} />
             </View>
         </View>
     )
