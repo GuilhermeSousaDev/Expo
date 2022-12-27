@@ -8,6 +8,7 @@ import Home from './screens/Home';
 import ImagePicker from './screens/ImagePicker';
 import PinchGesture from './screens/PinchGesture';
 import AccelerometerSensor from './screens/Accelerometer';
+import Application from './screens/Application';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Stack.Screen name='ImagePicker' component={ImagePicker} />
         <Stack.Screen name='PinchGesture' component={PinchGesture} />
         <Stack.Screen name='Accelerometer' component={AccelerometerSensor} />
+        <Stack.Screen name='Application' component={Application} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>

@@ -14,6 +14,7 @@ export default function Home({ navigation }) {
                 <Button title="PinchGesture" onPress={() => navigate('PinchGesture')} />
                 <Button title="Authentication" onPress={() => navigate('Authentication')} />
                 <Button title="Accelerometer" onPress={() => navigate('Accelerometer')} />
+                <Button title="Application" onPress={() => navigate('Application')} />
             </View>
         </View>
     )
