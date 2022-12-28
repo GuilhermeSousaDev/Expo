@@ -15,6 +15,7 @@ export default function Home({ navigation }) {
                 <Button title="Authentication" onPress={() => navigate('Authentication')} />
                 <Button title="Accelerometer" onPress={() => navigate('Accelerometer')} />
                 <Button title="Application" onPress={() => navigate('Application')} />
+                <Button title="AsyncStorage" onPress={() => navigate('AsyncStorage')} />
             </View>
         </View>
     )

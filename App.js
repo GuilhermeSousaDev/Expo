@@ -9,6 +9,7 @@ import ImagePicker from './screens/ImagePicker';
 import PinchGesture from './screens/PinchGesture';
 import AccelerometerSensor from './screens/Accelerometer';
 import Application from './screens/Application';
+import AsyncStorageScreen from './screens/AsyncStorage';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name='PinchGesture' component={PinchGesture} />
         <Stack.Screen name='Accelerometer' component={AccelerometerSensor} />
         <Stack.Screen name='Application' component={Application} />
+        <Stack.Screen name='AsyncStorage' component={AsyncStorageScreen} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
