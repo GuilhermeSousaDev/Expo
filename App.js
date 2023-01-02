@@ -10,7 +10,9 @@ import PinchGesture from './screens/PinchGesture';
 import AccelerometerSensor from './screens/Accelerometer';
 import Application from './screens/Application';
 import AsyncStorage from './screens/AsyncStorage';
-import AudioScreen from './screens/Audio';
+import Audio from './screens/Audio';
+import AuthSession from './screens/AuthSession';
+import BackgroundFetch from './screens/backgroundFetch';
 
 export default function App() {
   return (
@@ -22,7 +24,9 @@ export default function App() {
         <Stack.Screen name='Accelerometer' component={AccelerometerSensor} />
         <Stack.Screen name='Application' component={Application} />
         <Stack.Screen name='AsyncStorage' component={AsyncStorage} />
-        <Stack.Screen name='Audio' component={AudioScreen} />
+        <Stack.Screen name='Audio' component={Audio} />
+        <Stack.Screen name='AuthSession' component={AuthSession} />
+        <Stack.Screen name='BackgroundFetch' component={BackgroundFetch} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
