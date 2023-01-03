@@ -19,6 +19,7 @@ export default function Home({ navigation }) {
                 <Button title="Audio" onPress={() => navigate('Audio')} />
                 <Button title="AuthSession" onPress={() => navigate('AuthSession')} />
                 <Button title="BackgroundFetch" onPress={() => navigate('BackgroundFetch')} />
+                <Button title="BarcodeScanner" onPress={() => navigate('BarcodeScanner')} />
             </View>
         </View>
     )

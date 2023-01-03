@@ -17,6 +17,7 @@
     "expo-auth-session": "~3.8.0",
     "expo-av": "~13.0.2",
     "expo-background-fetch": "~11.0.1",
+    "expo-barcode-scanner": "~12.1.0",
     "expo-camera": "~13.1.0",
     "expo-image-picker": "~14.0.2",
     "expo-media-library": "~15.0.0",
