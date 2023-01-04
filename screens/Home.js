@@ -20,6 +20,7 @@ export default function Home({ navigation }) {
                 <Button title="AuthSession" onPress={() => navigate('AuthSession')} />
                 <Button title="BackgroundFetch" onPress={() => navigate('BackgroundFetch')} />
                 <Button title="BarcodeScanner" onPress={() => navigate('BarcodeScanner')} />
+                <Button title="Barometer" onPress={() => navigate('Barometer')} />
             </View>
         </View>
     )

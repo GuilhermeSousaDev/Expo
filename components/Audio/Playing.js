@@ -6,9 +6,11 @@ export default function PlayingAudio() {
     const [sound, setSound] = useState();
 
     const playSound = async () => {
-        const { sound } = await Audio.Sound.createAsync(require('../../assets/AD-Fosforo.mp3'));
-        setSound(sound);
-        await sound.playAsync();
+        if (!sound) {
+            const { sound } = await Audio.Sound.createAsync(require('../../assets/AD-Fosforo.mp3'));
+            setSound(sound);
+            await sound.playAsync();
+        }
     }
 
     useEffect(() => {
