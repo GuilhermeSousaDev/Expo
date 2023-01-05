@@ -12,7 +12,6 @@ export default function Home({ navigation }) {
             <View>
                 <Button title="ImagePicker" onPress={() => navigate('ImagePicker')} />
                 <Button title="PinchGesture" onPress={() => navigate('PinchGesture')} />
-                <Button title="Authentication" onPress={() => navigate('Authentication')} />
                 <Button title="Accelerometer" onPress={() => navigate('Accelerometer')} />
                 <Button title="Application" onPress={() => navigate('Application')} />
                 <Button title="AsyncStorage" onPress={() => navigate('AsyncStorage')} />
@@ -21,6 +20,7 @@ export default function Home({ navigation }) {
                 <Button title="BackgroundFetch" onPress={() => navigate('BackgroundFetch')} />
                 <Button title="BarcodeScanner" onPress={() => navigate('BarcodeScanner')} />
                 <Button title="Barometer" onPress={() => navigate('Barometer')} />
+                <Button title="Battery" onPress={() => navigate('Battery')} />
             </View>
         </View>
     )
