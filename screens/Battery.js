@@ -17,6 +17,8 @@ export default function BatteryScreen() {
         setSubscription(Battery.addBatteryLevelListener(({ batteryLevel }) => {
             setBatteryLevel(batteryLevel);
         }));
+
+        Battery.addBatteryStateListener(({ batteryState }) => setCharging(batteryState));
     }
 
     const unsubscribe = () => {
