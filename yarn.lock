@@ -3097,6 +3097,11 @@ expo-battery@~7.0.0:
   resolved "https://registry.yarnpkg.com/expo-battery/-/expo-battery-7.0.0.tgz#f5a8b0f8361272c46c85b40b129993b0e47b7ade"
   integrity sha512-y1ehvHNKTnK29GmrgIVl8H1nVLNuF6slVSNRhESZHaCU7v5Cl62d825OAbfJGKAfoWwhtjfnsO2bPiQJGF1WPA==
 
+expo-brightness@~11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/expo-brightness/-/expo-brightness-11.0.1.tgz#789b7a1fbbee856144a0387b7af4dcb3d1952ba6"
+  integrity sha512-t5SJzYQLCawXK3UOollQuyNiVs6h05EhNQwfD2HGMtidroyoD70yN/t0v+svZ3wjzlKRWHnOOT/rdlU5PGSrJg==
+
 expo-camera@~13.1.0:
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-13.1.0.tgz#e706a8efc78d1891d848ff729730d9d75468d36d"
