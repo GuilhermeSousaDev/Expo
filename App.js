@@ -17,6 +17,7 @@ import BarcodeScanner from './screens/BarcodeScanner';
 import Barometer from './screens/Barometer';
 import Battery from './screens/Battery';
 import Brightness from './screens/Brightness';
+import Calendar from './screens/Calendar';
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
         <Stack.Screen name='Barometer' component={Barometer} />
         <Stack.Screen name='Battery' component={Battery} />
         <Stack.Screen name='Brightness' component={Brightness} />
+        <Stack.Screen name='Calendar' component={Calendar} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>

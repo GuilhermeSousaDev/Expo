@@ -3102,6 +3102,11 @@ expo-brightness@~11.0.1:
   resolved "https://registry.yarnpkg.com/expo-brightness/-/expo-brightness-11.0.1.tgz#789b7a1fbbee856144a0387b7af4dcb3d1952ba6"
   integrity sha512-t5SJzYQLCawXK3UOollQuyNiVs6h05EhNQwfD2HGMtidroyoD70yN/t0v+svZ3wjzlKRWHnOOT/rdlU5PGSrJg==
 
+expo-calendar@~11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/expo-calendar/-/expo-calendar-11.0.1.tgz#c580f4d5f0c9f7038919c3e05ab44067cc825c7d"
+  integrity sha512-I+vpz8O01vjdmYKyFom7etODwj1WDtimMIAy8q4k3AvU/8RdC12PoMu9WjT2EPJ4aAvpNIU7CBLzsgc3nRiKPw==
+
 expo-camera@~13.1.0:
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-13.1.0.tgz#e706a8efc78d1891d848ff729730d9d75468d36d"
