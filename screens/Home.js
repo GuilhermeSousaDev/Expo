@@ -23,6 +23,7 @@ export default function Home({ navigation }) {
                 <Button title="Battery" onPress={() => navigate('Battery')} />
                 <Button title="Brightness" onPress={() => navigate('Brightness')} />
                 <Button title="Calendar" onPress={() => navigate('Calendar')} />
+                <Button title="Camera" onPress={() => navigate('Camera')} />
             </View>
         </View>
     )
