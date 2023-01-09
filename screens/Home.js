@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Button } from 'react-native';
+import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
 export default function Home({ navigation }) {
     const navigate = (route) => {
@@ -9,7 +9,7 @@ export default function Home({ navigation }) {
         <View style={styles.container}>
             <Text>Home</Text>   
 
-            <View>
+            <ScrollView>
                 <Button title="ImagePicker" onPress={() => navigate('ImagePicker')} />
                 <Button title="PinchGesture" onPress={() => navigate('PinchGesture')} />
                 <Button title="Accelerometer" onPress={() => navigate('Accelerometer')} />
@@ -24,7 +24,8 @@ export default function Home({ navigation }) {
                 <Button title="Brightness" onPress={() => navigate('Brightness')} />
                 <Button title="Calendar" onPress={() => navigate('Calendar')} />
                 <Button title="Camera" onPress={() => navigate('Camera')} />
-            </View>
+                <Button title="CaptureRef" onPress={() => navigate('CaptureRef')} />
+            </ScrollView>
         </View>
     )
 }
