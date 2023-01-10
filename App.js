@@ -20,6 +20,7 @@ import Brightness from './screens/Brightness';
 import Calendar from './screens/Calendar';
 import Camera from './screens/Camera';
 import CaptureRef from './screens/CaptureRef';
+import Checkbox from './screens/Checkbox';
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
         <Stack.Screen name='Calendar' component={Calendar} />
         <Stack.Screen name='Camera' component={Camera} />
         <Stack.Screen name='CaptureRef' component={CaptureRef} />
+        <Stack.Screen name='Checkbox' component={Checkbox} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
