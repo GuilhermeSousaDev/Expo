@@ -21,6 +21,7 @@ import Calendar from './screens/Calendar';
 import Camera from './screens/Camera';
 import CaptureRef from './screens/CaptureRef';
 import Checkbox from './screens/Checkbox';
+import Clipboard from './screens/Clipboard';
 
 export default function App() {
   return (
@@ -43,6 +44,7 @@ export default function App() {
         <Stack.Screen name='Camera' component={Camera} />
         <Stack.Screen name='CaptureRef' component={CaptureRef} />
         <Stack.Screen name='Checkbox' component={Checkbox} />
+        <Stack.Screen name='Clipboard' component={Clipboard} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>

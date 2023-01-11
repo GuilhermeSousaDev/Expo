@@ -26,6 +26,7 @@ export default function Home({ navigation }) {
                 <Button title="Camera" onPress={() => navigate('Camera')} />
                 <Button title="CaptureRef" onPress={() => navigate('CaptureRef')} />
                 <Button title="Checkbox" onPress={() => navigate('Checkbox')} />
+                <Button title="Clipboard" onPress={() => navigate('Clipboard')} />
             </ScrollView>
         </View>
     )
