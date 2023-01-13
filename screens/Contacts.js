@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TextInput, Button } from 'react-native';
+import { View, Text, TextInput, Button } from 'react-native';
 import * as Contacts from 'expo-contacts';
 
 export default function ContactsScreen() {
@@ -45,6 +45,7 @@ export default function ContactsScreen() {
                     : '' 
                 }
             </View>
+
             <TextInput placeholder="Name" onChange={e => setName(e.target.value)} />
             <TextInput placeholder="LastName" onChange={e => setLastName(e.target.value)} />
             <TextInput placeholder="Company" onChange={e => setCompany(e.target.value)} />

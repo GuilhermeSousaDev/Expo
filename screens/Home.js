@@ -28,6 +28,7 @@ export default function Home({ navigation }) {
                 <Button title="Checkbox" onPress={() => navigate('Checkbox')} />
                 <Button title="Clipboard" onPress={() => navigate('Clipboard')} />
                 <Button title="Contacts" onPress={() => navigate('Contacts')} />
+                <Button title="Crypto" onPress={() => navigate('Crypto')} />
             </ScrollView>
         </View>
     )

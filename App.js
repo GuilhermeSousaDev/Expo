@@ -23,6 +23,7 @@ import CaptureRef from './screens/CaptureRef';
 import Checkbox from './screens/Checkbox';
 import Clipboard from './screens/Clipboard';
 import Contacts from './screens/Contacts';
+import Crypto from './screens/Crypto';
 
 export default function App() {
   return (
@@ -47,6 +48,7 @@ export default function App() {
         <Stack.Screen name='Checkbox' component={Checkbox} />
         <Stack.Screen name='Clipboard' component={Clipboard} />
         <Stack.Screen name='Contacts' component={Contacts} />
+        <Stack.Screen name='Crypto' component={Crypto} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
