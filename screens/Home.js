@@ -29,6 +29,7 @@ export default function Home({ navigation }) {
                 <Button title="Clipboard" onPress={() => navigate('Clipboard')} />
                 <Button title="Contacts" onPress={() => navigate('Contacts')} />
                 <Button title="Crypto" onPress={() => navigate('Crypto')} />
+                <Button title="Datatime" onPress={() => navigate('Datatime')} />
             </ScrollView>
         </View>
     )
