@@ -12,6 +12,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#25292e"
     },
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },

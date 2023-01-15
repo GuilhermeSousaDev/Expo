@@ -27,6 +27,7 @@
     "expo-clipboard": "~4.0.1",
     "expo-contacts": "~11.0.1",
     "expo-crypto": "~12.0.0",
+    "expo-document-picker": "~11.0.1",
     "expo-image-picker": "~14.0.2",
     "expo-media-library": "~15.0.0",
     "expo-random": "~13.0.0",
