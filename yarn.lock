@@ -3164,6 +3164,11 @@ expo-error-recovery@~4.0.1:
   resolved "https://registry.npmjs.org/expo-error-recovery/-/expo-error-recovery-4.0.1.tgz"
   integrity sha512-wceptnRX+N3qCSVTNbIchUFu3GmY30onRH5L66OF8HMLpAIQfrZMLxJfz7SAMJTcr3jxsJ11vSa2l2RaPKgHsQ==
 
+expo-face-detector@~12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/expo-face-detector/-/expo-face-detector-12.0.0.tgz#b3f1bf95f0494e3ae0fe4d10d5ae3a2b1cce9c72"
+  integrity sha512-s7ttD/6aaCzo3hMKbuvfS5JoaCfiP410LOHgJwL5qChnKXnGc1SCyjmNp0CzSK9z+iPR0KHfEHgZwWqJvRosqQ==
+
 expo-file-system@~15.1.0, expo-file-system@~15.1.1:
   version "15.1.1"
   resolved "https://registry.npmjs.org/expo-file-system/-/expo-file-system-15.1.1.tgz"

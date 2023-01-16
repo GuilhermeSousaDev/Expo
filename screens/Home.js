@@ -31,6 +31,7 @@ export default function Home({ navigation }) {
                 <Button title="Crypto" onPress={() => navigate('Crypto')} />
                 <Button title="Datatime" onPress={() => navigate('Datatime')} />
                 <Button title="DocumentPicker" onPress={() => navigate('DocumentPicker')} />
+                <Button title="FaceDetector" onPress={() => navigate('FaceDetector')} />
             </ScrollView>
         </View>
     )
