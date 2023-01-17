@@ -27,6 +27,7 @@ import Crypto from './screens/Crypto';
 import Datatime from './screens/Datatime';
 import DocumentPicker from './screens/DocumentPicker';
 import FaceDetector from './screens/FaceDetector';
+import FileSystem from './screens/FileSystem';
 
 export default function App() {
   return (
@@ -55,6 +56,7 @@ export default function App() {
         <Stack.Screen name='Datatime' component={Datatime} />
         <Stack.Screen name='DocumentPicker' component={DocumentPicker} />
         <Stack.Screen name='FaceDetector' component={FaceDetector} />
+        <Stack.Screen name='FileSystem' component={FileSystem} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
