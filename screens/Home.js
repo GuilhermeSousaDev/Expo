@@ -33,6 +33,7 @@ export default function Home({ navigation }) {
                 <Button title="DocumentPicker" onPress={() => navigate('DocumentPicker')} />
                 <Button title="FaceDetector" onPress={() => navigate('FaceDetector')} />
                 <Button title="FileSystem" onPress={() => navigate('FileSystem')} />
+                <Button title="Firebase" onPress={() => navigate('Firebase')} />
             </ScrollView>
         </View>
     )
