@@ -29,6 +29,7 @@ import DocumentPicker from './screens/DocumentPicker';
 import FaceDetector from './screens/FaceDetector';
 import FileSystem from './screens/FileSystem';
 import Firebase from './screens/Firebase';
+import Fonts from './screens/Fonts';
 
 export default function App() {
   return (
@@ -59,6 +60,7 @@ export default function App() {
         <Stack.Screen name='FaceDetector' component={FaceDetector} />
         <Stack.Screen name='FileSystem' component={FileSystem} />
         <Stack.Screen name='Firebase' component={Firebase} />
+        <Stack.Screen name='Fonts' component={Fonts} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>

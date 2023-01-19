@@ -34,6 +34,7 @@ export default function Home({ navigation }) {
                 <Button title="FaceDetector" onPress={() => navigate('FaceDetector')} />
                 <Button title="FileSystem" onPress={() => navigate('FileSystem')} />
                 <Button title="Firebase" onPress={() => navigate('Firebase')} />
+                <Button title="Fonts" onPress={() => navigate('Fonts')} />
             </ScrollView>
         </View>
     )
