@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
@@ -30,6 +31,7 @@ import FaceDetector from './screens/FaceDetector';
 import FileSystem from './screens/FileSystem';
 import Firebase from './screens/Firebase';
 import Fonts from './screens/Fonts';
+import Gesture from './screens/Gesture';
 
 export default function App() {
   return (
@@ -61,6 +63,7 @@ export default function App() {
         <Stack.Screen name='FileSystem' component={FileSystem} />
         <Stack.Screen name='Firebase' component={Firebase} />
         <Stack.Screen name='Fonts' component={Fonts} />
+        <Stack.Screen name='Gesture' component={Gesture} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
