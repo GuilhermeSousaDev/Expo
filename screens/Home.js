@@ -36,6 +36,7 @@ export default function Home({ navigation }) {
                 <Button title="Firebase" onPress={() => navigate('Firebase')} />
                 <Button title="Fonts" onPress={() => navigate('Fonts')} />
                 <Button title="Gesture" onPress={() => navigate('Gesture')} />
+                <Button title="GlView" onPress={() => navigate('GlView')} />
             </ScrollView>
         </View>
     )
