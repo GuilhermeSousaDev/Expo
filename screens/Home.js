@@ -37,6 +37,7 @@ export default function Home({ navigation }) {
                 <Button title="Fonts" onPress={() => navigate('Fonts')} />
                 <Button title="Gesture" onPress={() => navigate('Gesture')} />
                 <Button title="GlView" onPress={() => navigate('GlView')} />
+                <Button title="Haptics" onPress={() => navigate('Haptics')} />
             </ScrollView>
         </View>
     )

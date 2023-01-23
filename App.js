@@ -33,6 +33,7 @@ import Firebase from './screens/Firebase';
 import Fonts from './screens/Fonts';
 import Gesture from './screens/Gesture';
 import GlView from './screens/GlView';
+import Haptics from './screens/Haptics';
 
 export default function App() {
   return (
@@ -66,6 +67,7 @@ export default function App() {
         <Stack.Screen name='Fonts' component={Fonts} />
         <Stack.Screen name='Gesture' component={Gesture} />
         <Stack.Screen name='GlView' component={GlView} />
+        <Stack.Screen name='Haptics' component={Haptics} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
