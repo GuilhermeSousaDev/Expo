@@ -35,6 +35,7 @@ import Gesture from './screens/Gesture';
 import GlView from './screens/GlView';
 import Haptics from './screens/Haptics';
 import ImageManipulator from './screens/ImageManipulator';
+import ImageLibrary from './screens/ImageLibrary';
 
 export default function App() {
   return (
@@ -70,6 +71,7 @@ export default function App() {
         <Stack.Screen name='GlView' component={GlView} />
         <Stack.Screen name='Haptics' component={Haptics} />
         <Stack.Screen name='ImageManipulator' component={ImageManipulator} />
+        <Stack.Screen name='ImageLibrary' component={ImageLibrary} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
