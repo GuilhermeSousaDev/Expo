@@ -36,6 +36,7 @@ import GlView from './screens/GlView';
 import Haptics from './screens/Haptics';
 import ImageManipulator from './screens/ImageManipulator';
 import ImageLibrary from './screens/ImageLibrary';
+import KeepAwake from './screens/KeepAwake';
 
 export default function App() {
   return (
@@ -72,6 +73,7 @@ export default function App() {
         <Stack.Screen name='Haptics' component={Haptics} />
         <Stack.Screen name='ImageManipulator' component={ImageManipulator} />
         <Stack.Screen name='ImageLibrary' component={ImageLibrary} />
+        <Stack.Screen name='KeepAwake' component={KeepAwake} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
