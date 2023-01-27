@@ -4,7 +4,7 @@ import { activateKeepAwake, deactivateKeepAwake } from 'expo-keep-awake';
 export default function KeepAwakeScreen() {
     const active = () => {
         activateKeepAwake();
-        alert('Desactivate');
+        alert('Activated');
     }
 
     const desactive = () => {

@@ -41,6 +41,7 @@ export default function Home({ navigation }) {
                 <Button title="ImageManipulator" onPress={() => navigate('ImageManipulator')} />
                 <Button title="ImageLibrary" onPress={() => navigate('ImageLibrary')} />
                 <Button title="KeepAwake" onPress={() => navigate('KeepAwake')} />
+                <Button title="LinearGradient" onPress={() => navigate('LinearGradient')} />
             </ScrollView>
         </View>
     )
