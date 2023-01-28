@@ -38,6 +38,7 @@ import ImageManipulator from './screens/ImageManipulator';
 import ImageLibrary from './screens/ImageLibrary';
 import KeepAwake from './screens/KeepAwake';
 import LinearGradient from './screens/LinearGradient';
+import LocalAuth from './screens/LocalAuth';
 
 export default function App() {
   return (
@@ -76,6 +77,7 @@ export default function App() {
         <Stack.Screen name='ImageLibrary' component={ImageLibrary} />
         <Stack.Screen name='KeepAwake' component={KeepAwake} />
         <Stack.Screen name='LinearGradient' component={LinearGradient} />
+        <Stack.Screen name='LocalAuth' component={LocalAuth} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>

@@ -42,6 +42,7 @@ export default function Home({ navigation }) {
                 <Button title="ImageLibrary" onPress={() => navigate('ImageLibrary')} />
                 <Button title="KeepAwake" onPress={() => navigate('KeepAwake')} />
                 <Button title="LinearGradient" onPress={() => navigate('LinearGradient')} />
+                <Button title="LocalAuth" onPress={() => navigate('LocalAuth')} />
             </ScrollView>
         </View>
     )
