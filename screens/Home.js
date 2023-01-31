@@ -44,6 +44,7 @@ export default function Home({ navigation }) {
                 <Button title="LinearGradient" onPress={() => navigate('LinearGradient')} />
                 <Button title="LocalAuth" onPress={() => navigate('LocalAuth')} />
                 <Button title="Localization" onPress={() => navigate('Localization')} />
+                <Button title="Location" onPress={() => navigate('Location')} />
             </ScrollView>
         </View>
     )
