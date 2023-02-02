@@ -41,6 +41,7 @@ import LinearGradient from './screens/LinearGradient';
 import LocalAuth from './screens/LocalAuth';
 import Localization from './screens/Localization';
 import Location from './screens/Location';
+import MailCompose from './screens/MailCompose';
 
 export default function App() {
   return (
@@ -82,6 +83,7 @@ export default function App() {
         <Stack.Screen name='LocalAuth' component={LocalAuth} />
         <Stack.Screen name='Localization' component={Localization} />
         <Stack.Screen name='Location' component={Location} />  
+        <Stack.Screen name='MailCompose' component={MailCompose} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>

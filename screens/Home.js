@@ -45,6 +45,7 @@ export default function Home({ navigation }) {
                 <Button title="LocalAuth" onPress={() => navigate('LocalAuth')} />
                 <Button title="Localization" onPress={() => navigate('Localization')} />
                 <Button title="Location" onPress={() => navigate('Location')} />
+                <Button title="MailCompose" onPress={() => navigate('MailCompose')} />
             </ScrollView>
         </View>
     )
