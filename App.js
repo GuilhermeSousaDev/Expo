@@ -42,6 +42,7 @@ import LocalAuth from './screens/LocalAuth';
 import Localization from './screens/Localization';
 import Location from './screens/Location';
 import MailCompose from './screens/MailCompose';
+import MapView from './screens/MapView';
 
 export default function App() {
   return (
@@ -84,6 +85,7 @@ export default function App() {
         <Stack.Screen name='Localization' component={Localization} />
         <Stack.Screen name='Location' component={Location} />  
         <Stack.Screen name='MailCompose' component={MailCompose} />
+        <Stack.Screen name='MapView' component={MapView} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
