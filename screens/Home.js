@@ -47,6 +47,7 @@ export default function Home({ navigation }) {
                 <Button title="Location" onPress={() => navigate('Location')} />
                 <Button title="MailCompose" onPress={() => navigate('MailCompose')} />
                 <Button title="MapView" onPress={() => navigate('MapView')} />
+                <Button title="MediaLibrary" onPress={() => navigate('MediaLibrary')} />
             </ScrollView>
         </View>
     )
