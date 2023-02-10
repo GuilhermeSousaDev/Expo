@@ -44,6 +44,8 @@ import Location from './screens/Location';
 import MailCompose from './screens/MailCompose';
 import MapView from './screens/MapView';
 import MediaLibrary from './screens/MediaLibrary';
+import NavigationBar from './screens/NavigationBar';
+import NetInfo from './screens/NetInfo';
 
 export default function App() {
   return (
@@ -88,6 +90,8 @@ export default function App() {
         <Stack.Screen name='MailCompose' component={MailCompose} />
         <Stack.Screen name='MapView' component={MapView} />
         <Stack.Screen name='MediaLibrary' component={MediaLibrary} />
+        <Stack.Screen name='NavigationBar' component={NavigationBar} />
+        <Stack.Screen name='NetInfo' component={NetInfo} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
