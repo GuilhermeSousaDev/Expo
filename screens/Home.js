@@ -50,6 +50,7 @@ export default function Home({ navigation }) {
                 <Button title="MediaLibrary" onPress={() => navigate('MediaLibrary')} />
                 <Button title="NavigationBar" onPress={() => navigate('NavigationBar')} />
                 <Button title="NetInfo" onPress={() => navigate('NetInfo')} />
+                <Button title="Notifications" onPress={() => navigate('Notifications')} />
             </ScrollView>
         </View>
     )
