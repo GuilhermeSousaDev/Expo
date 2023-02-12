@@ -47,6 +47,7 @@ import MediaLibrary from './screens/MediaLibrary';
 import NavigationBar from './screens/NavigationBar';
 import NetInfo from './screens/NetInfo';
 import Notifications from './screens/Notifications';
+import Pedometer from './screens/Pedometer';
 
 export default function App() {
   return (
@@ -94,6 +95,7 @@ export default function App() {
         <Stack.Screen name='NavigationBar' component={NavigationBar} />
         <Stack.Screen name='NetInfo' component={NetInfo} />
         <Stack.Screen name='Notifications' component={Notifications} />
+        <Stack.Screen name='Pedometer' component={Pedometer} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
