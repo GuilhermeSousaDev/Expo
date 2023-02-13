@@ -48,6 +48,7 @@ import NavigationBar from './screens/NavigationBar';
 import NetInfo from './screens/NetInfo';
 import Notifications from './screens/Notifications';
 import Pedometer from './screens/Pedometer';
+import Print from './screens/Print';
 
 export default function App() {
   return (
@@ -96,6 +97,7 @@ export default function App() {
         <Stack.Screen name='NetInfo' component={NetInfo} />
         <Stack.Screen name='Notifications' component={Notifications} />
         <Stack.Screen name='Pedometer' component={Pedometer} />
+        <Stack.Screen name='Print' component={Print} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>

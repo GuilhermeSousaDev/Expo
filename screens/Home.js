@@ -52,6 +52,7 @@ export default function Home({ navigation }) {
                 <Button title="NetInfo" onPress={() => navigate('NetInfo')} />
                 <Button title="Notifications" onPress={() => navigate('Notifications')} />
                 <Button title="Pedometer" onPress={() => navigate('Pedometer')} />
+                <Button title="Print" onPress={() => navigate('Print')} />
             </ScrollView>
         </View>
     )
