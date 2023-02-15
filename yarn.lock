@@ -3936,6 +3936,11 @@ expo-random@~13.0.0:
   dependencies:
     base64-js "^1.3.0"
 
+expo-screen-capture@~5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/expo-screen-capture/-/expo-screen-capture-5.0.0.tgz#3e143c0eb8ad59ce6471a38e8c275bebe694cece"
+  integrity sha512-HWlO0pGsqVzdH2mWjtXv97u9xrS97AaXe6ppgo8JBWTtvsDviqbHkp3DYDDf01oMWRVhM+h8NQNoCVVPj4aBxg==
+
 expo-sensors@~12.0.1:
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/expo-sensors/-/expo-sensors-12.0.1.tgz#ec8a285bb672ca73a6e1d5be95c78ee225c1641d"

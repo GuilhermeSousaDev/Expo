@@ -54,6 +54,7 @@ export default function Home({ navigation }) {
                 <Button title="Pedometer" onPress={() => navigate('Pedometer')} />
                 <Button title="Print" onPress={() => navigate('Print')} />
                 <Button title="Reanimated" onPress={() => navigate('Reanimated')} />
+                <Button title="ScreenCapture" onPress={() => navigate('ScreenCapture')} /> 
             </ScrollView>
         </View>
     )
