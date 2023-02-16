@@ -3941,6 +3941,11 @@ expo-screen-capture@~5.0.0:
   resolved "https://registry.yarnpkg.com/expo-screen-capture/-/expo-screen-capture-5.0.0.tgz#3e143c0eb8ad59ce6471a38e8c275bebe694cece"
   integrity sha512-HWlO0pGsqVzdH2mWjtXv97u9xrS97AaXe6ppgo8JBWTtvsDviqbHkp3DYDDf01oMWRVhM+h8NQNoCVVPj4aBxg==
 
+expo-screen-orientation@~5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/expo-screen-orientation/-/expo-screen-orientation-5.0.1.tgz#b2372d69ea968f04b5f5e7104cdc1c9544a07847"
+  integrity sha512-/EytlprTKrGny1XYvku+UaGgsEPqtAU7Q8fCt9QtszqCj4hhQoEEa7/LJ4Bds5LNDdyd/syh0dkkJ3YtSI6h1Q==
+
 expo-sensors@~12.0.1:
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/expo-sensors/-/expo-sensors-12.0.1.tgz#ec8a285bb672ca73a6e1d5be95c78ee225c1641d"
