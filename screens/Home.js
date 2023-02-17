@@ -56,6 +56,7 @@ export default function Home({ navigation }) {
                 <Button title="Reanimated" onPress={() => navigate('Reanimated')} />
                 <Button title="ScreenCapture" onPress={() => navigate('ScreenCapture')} />
                 <Button title="ScreenOrientation" onPress={() => navigate('ScreenOrientation')} />
+                <Button title="SecureStore" onPress={() => navigate('SecureStore')} />
             </ScrollView>
         </View>
     )
