@@ -53,6 +53,7 @@ import Reanimated from './screens/Reanimated';
 import ScreenCapture from './screens/ScreenCapture';
 import ScreenOrientation from './screens/ScreenOrientation';
 import SecureStore from './screens/SecureStore';
+import Sharing from './screens/Sharing';
 
 export default function App() {
   return (
@@ -106,6 +107,7 @@ export default function App() {
         <Stack.Screen name='ScreenCapture' component={ScreenCapture} />
         <Stack.Screen name='ScreenOrientation' component={ScreenOrientation} />
         <Stack.Screen name='SecureStore' component={SecureStore} />
+        <Stack.Screen name='Sharing' component={Sharing} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
