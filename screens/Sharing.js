@@ -11,7 +11,7 @@ export default function SharingScreen() {
             copyToCacheDirectory: true,
         });
 
-        setFile(document);
+        setFile(document.uri);
     }
 
     const handleShareFile = async () => {
