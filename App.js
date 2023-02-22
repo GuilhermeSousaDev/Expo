@@ -54,6 +54,8 @@ import ScreenCapture from './screens/ScreenCapture';
 import ScreenOrientation from './screens/ScreenOrientation';
 import SecureStore from './screens/SecureStore';
 import Sharing from './screens/Sharing';
+import SMS from './screens/SMS';
+import Speech from './screens/Speech';
 
 export default function App() {
   return (
@@ -94,7 +96,7 @@ export default function App() {
         <Stack.Screen name='LinearGradient' component={LinearGradient} />
         <Stack.Screen name='LocalAuth' component={LocalAuth} />
         <Stack.Screen name='Localization' component={Localization} />
-        <Stack.Screen name='Location' component={Location} />  
+        <Stack.Screen name='Location' component={Location} />
         <Stack.Screen name='MailCompose' component={MailCompose} />
         <Stack.Screen name='MapView' component={MapView} />
         <Stack.Screen name='MediaLibrary' component={MediaLibrary} />
@@ -108,9 +110,10 @@ export default function App() {
         <Stack.Screen name='ScreenOrientation' component={ScreenOrientation} />
         <Stack.Screen name='SecureStore' component={SecureStore} />
         <Stack.Screen name='Sharing' component={Sharing} />
+        <Stack.Screen name='SMS' component={SMS} />
+        <Stack.Screen name='Speech' component={Speech} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
   );
 }
-
