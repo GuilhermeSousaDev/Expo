@@ -7,7 +7,7 @@ export default function Home({ navigation }) {
 
     return (
         <View style={styles.container}>
-            <Text>Home</Text>   
+            <Text>Home</Text>
 
             <ScrollView>
                 <Button title="ImagePicker" onPress={() => navigate('ImagePicker')} />
@@ -60,6 +60,7 @@ export default function Home({ navigation }) {
                 <Button title="Sharing" onPress={() => navigate('Sharing')} />
                 <Button title="SMS" onPress={() => navigate('SMS')} />
                 <Button title="Speech" onPress={() => navigate('Speech')} />
+                <Button title="StoreReview" onPress={() => navigate('StoreReview')} />
             </ScrollView>
         </View>
     )
