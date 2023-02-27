@@ -58,6 +58,7 @@ import SMS from './screens/SMS';
 import Speech from './screens/Speech';
 import StoreReview from './screens/StoreReview';
 import SVG from './screens/SVG';
+import SystemUi from './screens/SystemUi';
 
 export default function App() {
   return (
@@ -116,6 +117,7 @@ export default function App() {
         <Stack.Screen name='Speech' component={Speech} />
         <Stack.Screen name='StoreReview' component={StoreReview} />
         <Stack.Screen name='SVG' component={SVG} />
+        <Stack.Screen name='SystemUi' component={SystemUi} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
