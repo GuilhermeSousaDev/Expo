@@ -63,6 +63,7 @@ export default function Home({ navigation }) {
                 <Button title="StoreReview" onPress={() => navigate('StoreReview')} />
                 <Button title="SVG" onPress={() => navigate('SVG')} />
                 <Button title="SystemUi" onPress={() => navigate('SystemUi')} />
+                <Button title="TaskManager" onPress={() => navigate('TaskManager')} />
             </ScrollView>
         </View>
     )

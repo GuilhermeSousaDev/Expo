@@ -59,6 +59,7 @@ import Speech from './screens/Speech';
 import StoreReview from './screens/StoreReview';
 import SVG from './screens/SVG';
 import SystemUi from './screens/SystemUi';
+import TaskManager from './screens/TaskManager';
 
 export default function App() {
   return (
@@ -118,6 +119,7 @@ export default function App() {
         <Stack.Screen name='StoreReview' component={StoreReview} />
         <Stack.Screen name='SVG' component={SVG} />
         <Stack.Screen name='SystemUi' component={SystemUi} />
+        <Stack.Screen name='TaskManager' component={TaskManager} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
