@@ -32,8 +32,13 @@
         {
           "initialOrientation": "DEFAULT"
         }
-      ]
-
+      ],
+      [
+       "expo-tracking-transparency",
+       {
+         "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+       }
+     ]
     ],
     "updates": {
       "fallbackToCacheTimeout": 0
