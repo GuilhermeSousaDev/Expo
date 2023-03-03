@@ -62,6 +62,7 @@ import SystemUi from './screens/SystemUi';
 import TaskManager from './screens/TaskManager';
 import TrackingTransparency from './screens/TrackingTransparency';
 import VideoThumbnails from './screens/VideoThumbnails';
+import Video from './screens/Video';
 
 export default function App() {
   return (
@@ -124,6 +125,7 @@ export default function App() {
         <Stack.Screen name='TaskManager' component={TaskManager} />
         <Stack.Screen name='TrackingTransparency' component={TrackingTransparency} />
         <Stack.Screen name='VideoThumbnails' component={VideoThumbnails} />
+        <Stack.Screen name='Video' component={Video} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>
