@@ -6695,6 +6695,11 @@ react-native-maps@1.3.2:
   dependencies:
     "@types/geojson" "^7946.0.8"
 
+react-native-pager-view@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-pager-view/-/react-native-pager-view-6.0.1.tgz#353abf38d3c2b91ed7c586f10af0f94700f5b1dc"
+  integrity sha512-kOVNu+4JnR3Gpykviy4WbOAnQz8TgP6O2pRvne221oPUDQLYrvEE/FINR0P85TxbMgvKTPlLejGw0ZHQbezK/g==
+
 react-native-reanimated@~2.12.0:
   version "2.12.0"
   resolved "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-2.12.0.tgz"
@@ -6735,6 +6740,11 @@ react-native-svg@13.4.0:
   dependencies:
     css-select "^5.1.0"
     css-tree "^1.1.3"
+
+react-native-view-pager@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/react-native-view-pager/-/react-native-view-pager-0.2.3.tgz#7ccdc95ee4b420a43e2bea2894367061dcba10b8"
+  integrity sha512-M9PR9pPyt6Q4rd75abOXrFiBx7fmOVUwOuhBqoad64E2HFgZZQsPUeNv+wLAPQG6aEid1OdQNPz8IczkbUDv3A==
 
 react-native-view-shot@3.4.0:
   version "3.4.0"
