@@ -65,6 +65,7 @@ import VideoThumbnails from './screens/VideoThumbnails';
 import Video from './screens/Video';
 import ViewPager from './screens/ViewPager';
 import WebBrowser from './screens/WebBrowser';
+import WebView from './screens/WebView';
 
 export default function App() {
   return (
@@ -130,6 +131,7 @@ export default function App() {
         <Stack.Screen name='Video' component={Video} />
         <Stack.Screen name='ViewPager' component={ViewPager} />
         <Stack.Screen name='WebBrowser' component={WebBrowser} />
+        <Stack.Screen name='WebView' component={WebView} />
       </Stack.Navigator>
       <StatusBar style="light" />
     </NavigationContainer>

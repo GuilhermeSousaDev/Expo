@@ -69,6 +69,7 @@ export default function Home({ navigation }) {
                 <Button title="Video" onPress={() => navigate('Video')} />
                 <Button title="ViewPager" onPress={() => navigate('ViewPager')} />
                 <Button title="WebBrowser" onPress={() => navigate('WebBrowser')} />
+                <Button title="WebView" onPress={() => navigate('WebView')} />
             </ScrollView>
         </View>
     )
